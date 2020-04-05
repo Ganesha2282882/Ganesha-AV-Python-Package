@@ -1,7 +1,10 @@
 from os import path
 import os
+import time
 
 print("Scanning. . .")
+print("Get a coffee, this will take a while . . .")
+time.sleep(20)
 print("Wanna_Crypt:"+str(path.exists('WannaCry.exe')))
 print("MEMZ:"+str(path.exists('MEMZ-destructive.exe')))
 print("MEMZ:"+str(path.exists('MEMZ-clean.exe')))
