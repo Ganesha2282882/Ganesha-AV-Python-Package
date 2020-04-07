@@ -1,5 +1,4 @@
 from os import path
-import os
 import time
 
 print("Scanning. . .")
